@@ -1,0 +1,90 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(30deg, rgb(71, 71, 236),rgb(198, 7, 198))
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*========= HEADER ==========*/
+
+.above-p{
+    padding-top: 55px;
+}
+
+.top-p{
+    background-color: rgb(250, 242, 242);
+    box-shadow: 2px 5px 13px rgba(0, 0, 0, 0.4);
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+/*========= MENU ==========*/
+
+.menu{
+    background-color: rgb(250, 242, 242);
+    box-shadow: 2px 5px 13px rgba(0, 0, 0, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 12px;
+    position: fixed;
+    right: 20px;
+    left: 20px;
+}  
+
+.menu_links{ 
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu_links:hover{
+    color:rgb(179, 179, 176);
+}
+
+/*========= TABLE ==========*/
+
+.table-container{
+    background-color: rgb(250, 242, 242);    
+    box-shadow: 2px 5px 13px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 2px;
+}
+
+/*========= FOOTER ==========*/
+
+.footer{
+    font-size: small;
+    background-color: rgb(250, 242, 242);    
+    box-shadow: 2px 5px 13px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+#icons{
+    width: 25px;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 12px;
+}
+
+#icons:hover{
+    background-color: rgb(214, 214, 210);   
+}
+
